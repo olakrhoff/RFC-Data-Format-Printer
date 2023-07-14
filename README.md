@@ -1,6 +1,6 @@
 # RFC-Data-Format-Printer
 
-This program reads a file containing names of variables and corresponding number of bits for the variable, and prints the names in a formatted grid based on the number of bits. This is the notation often seen in RFC documents. The example is from RFC 791, Internet Header Format.
+This program reads a file containing names of variables and corresponding number of bits for the variable, and prints the names in a formatted grid based on the number of bits. This is the notation often seen in RFC documents. The example is from [RFC 791]([https://www.rfc-editor.org/rfc/rfc791](https://www.rfc-editor.org/rfc/rfc791#section-3.1)), and generates the Internet Header Format.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ Replace `<program_name>` with the name of the compiled program and `<file_path>`
 
 Example usage:
 
-./build/main example_input_file.txt
+`./build/main example_input_file.txt`
 
 Gives this:
 
