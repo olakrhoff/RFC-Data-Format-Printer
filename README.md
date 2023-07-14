@@ -24,7 +24,7 @@ Replace `<program_name>` with the name of the compiled program and `<file_path>`
 
 Example usage:
 
-./main example_input_file.txt
+./build/main example_input_file.txt
 
 Gives this:
 
@@ -44,7 +44,7 @@ Gives this:
     |                    Options                    |    Padding    |
     +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
-## File Format
+## Input File Format
 
 The input file should follow a specific format. Each line should contain a name followed by a space-colon-space, then the corresponding bit number. Here's an example of the file format:
 
