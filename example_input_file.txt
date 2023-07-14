@@ -1,0 +1,14 @@
+Version : 4
+IHL : 4
+Type of Service : 8
+Total Length : 16
+Identification : 16
+Flags : 3
+Fragment Offset : 13
+Time to Live : 8
+Protocol : 8
+Header Checksum : 16
+Source Address : 32
+Destination Address : 32
+Options : 24
+Padding : 8
