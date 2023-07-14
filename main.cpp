@@ -71,7 +71,7 @@ int main(int argc, char **argv)
             return EXIT_FAILURE;
         }
         
-        if (name.length() > bits * 2)
+        if ((int)name.length() > bits * 2)
         {
             cout << "Sorry, name: " << name << " is longer than the number of bits assigned: " << bits;
             return EXIT_FAILURE;
