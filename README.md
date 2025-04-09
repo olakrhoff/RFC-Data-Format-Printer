@@ -67,7 +67,7 @@ There are much to improve and add to this little tool:
 - Output to file, with an optional name (and location)
 - Take a folder of files to process, and process them all (maybe an option to stitch them all in one file).
 - Support variables overflowing into new line.
-- Maybe and option to allow reordering of the variables to fit better per line.
+- Maybe an option to allow reordering of the variables to fit better per line.
 ## License
 
 This code is released under the [MIT License](LICENSE).
